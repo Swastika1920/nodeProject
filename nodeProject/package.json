@@ -1,0 +1,35 @@
+{
+  "name": "workspace",
+  "version": "0.0.0",
+  "description": "A chat example to showcase how to use `socket.io` with a static `express` server with `async` for control flow.",
+  "main": "server.js",
+  "author": "Mostafa Eweda <mo.eweda@gmail.com>",
+  "dependencies": {
+    "async": "~0.2.8",
+    "ejs": "^2.5.6",
+    "express": "^4.15.3",
+    "mongodb": "^2.2.30",
+    "socket.io": "~0.9.14"
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.13.0",
+    "font-awesome": "^4.6.3",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^2.0.10",
+    "gulp-header": "^1.8.7",
+    "gulp-inject": "^4.2.0",
+    "gulp-jshint": "^2.0.4",
+    "gulp-less": "^3.1.0",
+    "gulp-nodemon": "^2.2.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.2",
+    "gulp-uglify": "^1.5.4",
+    "jquery": "^1.11.3",
+    "jshint": "^2.9.1",
+    "wiredep": "^4.0.0"
+  },
+  "license": "ISC"
+}
